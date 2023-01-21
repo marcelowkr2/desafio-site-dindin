@@ -6,24 +6,24 @@ body {
     color: #000;
   }
   
-  .header-article {
+  .header-artigos{
     margin-bottom: 0;
   }
   
-  .blogintro {
+  .intro-blog {
     display: flex;
     justify-content: space-evenly;
     margin: 48px 100px 89px 130px;
     padding: 0 30px;
   }
   
-  .textoblogintro {
+  .texto-blog {
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
   
-  .textoblogintro h1 {
+  .texto-blog h1 {
     font-weight: 700;
     font-size: 47px;
     line-height: 54px;
@@ -31,7 +31,7 @@ body {
     max-width: 500px;
   }
   
-  .textoblogintro p {
+  .texto-blog p {
     font-weight: 300;
     font-size: 20px;
     line-height: 23px;
@@ -39,7 +39,7 @@ body {
     margin-top: 50px;
   }
   
-  .artigospaginablog {
+  .artigos-blog{
     background-color: #f7f7f7;
     display: flex;
     flex-direction: row;
@@ -48,41 +48,41 @@ body {
     padding: 4vw 4vw 8vw 4vw;
   }
   
-  .artigospaginablog article {
+  .artigos-blog article {
     max-width: 518px;
     padding: 50px 4.2vw;
     object-fit: cover;
     height: 500px;
   }
   
-  .artigospaginablog h5 {
+  .artigos-blog h5 {
     font-weight: 500;
     font-size: 30px;
     line-height: 34px;
     padding: 19px 0;
   }
   
-  .artigospaginablog a {
+  .artigos-blog a {
     color: #ff4081;
   }
   
-  .artigospaginablog p {
+  .artigos-blog p {
     font-weight: 300;
     font-size: 17px;
     line-height: 20px;
   }
   
   @media only screen and (max-width: 1024px) {
-    .blogintro {
+    .intro-blog {
       margin: 48px 5vw 89px 9vw;
       padding: 0 2vw;
     }
   
-    .textoblogintro p {
+    .texto-blog p {
       max-width: 32vw;
       margin-top: 3vw;
     }
-    .textoblogintro h1 {
+    .texto-blog h1 {
       font-size: 36px;
       line-height: 41px;
       max-width: 35vw;
@@ -90,58 +90,58 @@ body {
   }
   
   @media only screen and (max-width: 768px) {
-    .blogintro {
+    .intro-blog {
       flex-direction: column-reverse;
       align-items: center;
     }
-    .blogintro img {
+    .intro-blog img {
       max-width: 300px;
       max-height: 300px;
     }
-    .textoblogintro {
+    .texto-blog {
       align-items: center;
     }
   
-    .textoblogintro p {
+    .texto-blog p {
       max-width: 70vw;
       margin-top: 3vw;
     }
-    .textoblogintro h1 {
+    .texto-blog h1 {
       font-size: 36px;
       line-height: 41px;
       max-width: 70vw;
       margin-top: 15px;
     }
-    .artigospaginablog {
+    .artigos-blog {
       padding: 59px 50px 120px 50px;
     }
-    .artigospaginablog article {
+    .artigos-blog article {
       max-width: 60vw;
       padding: 50px 50px;
     }
   
-    .artigospaginablog img {
+    .artigos-blog img {
       max-width: 60vw;
     }
   }
   
   @media only screen and (max-width: 480px) {
-    .blogintro {
+    .intro-blog {
       margin: 30px 50px 50px 50px;
       padding: 0;
     }
-    .blogintro img {
+    .intro-blog img {
       max-width: 200px;
       max-height: 200px;
     }
-    .artigospaginablog {
+    .artigos-blog {
       padding: 20px 50px 120px 50px;
     }
   
-    .artigospaginablog article {
+    .artigos-blog article {
       padding: 30px 60px;
     }
-    .artigospaginablog h5 {
+    .artigos-blog h5 {
       padding: 12px 0;
     }
   }

@@ -44,15 +44,15 @@ footer {
     margin: -6px 0 3px -14px;
   }
   
-  .links-internos-footer ul {
+  .links-footer ul {
     padding: 51px 61px 71px 0;
   }
   
-  .links-internos-footer li {
+  .links-footer li {
     padding: 3px;
   }
   
-  .links-internos-footer a {
+  .links-footer a {
     font-weight: 400;
     font-size: 20px;
     line-height: 23px;
@@ -99,7 +99,7 @@ footer {
       margin: -5px 0 3px -2px;
     }
   
-    .links-internos-footer ul {
+    .links-footer ul {
       padding-right: 0;
     }
   
@@ -119,7 +119,7 @@ footer {
       font-size: 1rem;
       line-height: 1.438rem;
     }
-    .links-internos-footer {
+    .links-footer {
       display: none;
     }
   }

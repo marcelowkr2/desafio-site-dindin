@@ -7,22 +7,22 @@ body {
     background-color: #fff;
   }
   
-  .header-article {
+  .header-artigos {
     margin-bottom: 0;
   }
   
-  .contatocontainer {
+  .contato {
     display: flex;
     justify-content: space-around;
     margin: 82px 0 99px 0;
     padding: 0 7vw 0 6vw;
   }
   
-  .contatocontainer img {
+  .contato img {
     height: 444px;
   }
   
-  .contatocontainer h1 {
+  .contato h1 {
     font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -33,12 +33,12 @@ body {
     margin-top: 20px;
   }
   
-  .contatocontainer form {
+  .contato form {
     display: flex;
     flex-direction: column;
   }
   
-  .contatocontainer input {
+  .contato input {
     color: #58555d;
     font-family: "Nunito", sans-serif;
     font-style: normal;
@@ -52,7 +52,7 @@ body {
     padding-left: 1.5vw;
   }
   
-  .contatocontainer textarea {
+  .contato textarea {
     color: #58555d;
     font-family: "Nunito", sans-serif;
     font-style: normal;
@@ -72,7 +72,7 @@ body {
     margin: 15px 0 14px 0;
   }
   
-  .contatocontainer button {
+  .contato button {
     background: #ff4081;
     border-radius: 50px;
     font-family: "Nunito", sans-serif;
@@ -89,44 +89,44 @@ body {
   }
   
   @media only screen and (max-width: 1024px) {
-    .contatocontainer button {
+    .contato button {
       width: 40%;
     }
   
-    .contatocontainer img {
+    .contato img {
       height: 350px;
       width: 350px;
     }
-    .contatocontainer textarea {
+    .contato textarea {
       height: 13vw;
     }
-    .contatocontainer h1 {
+    .contato h1 {
       margin-bottom: 3vw;
       margin-top: 1.4vw;
     }
   }
   
   @media only screen and (max-width: 768px) {
-    .contatocontainer img {
+    .contato img {
       margin-top: 30px;
       height: 70vw;
       width: 70vw;
       align-self: center;
     }
-    .contatocontainer button {
+    .contato button {
       width: 50%;
     }
-    .contatocontainer {
+    .contato {
       flex-direction: column;
       align-items: center;
       margin: 82px 0 30px 0;
     }
   
-    .contatocontainer input {
+    .contato input {
       width: 60vw;
     }
   
-    .contatocontainer textarea {
+    .contato textarea {
       width: 60vw;
     }
   }
