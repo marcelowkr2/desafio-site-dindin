@@ -123,6 +123,7 @@ h4 {
     margin: 0 auto;
 }
 
+/*Depoimentos*/
 
 #falam {
     font-family: 'Nunito';
@@ -148,7 +149,6 @@ h4 {
     font-weight: 300;
     display: flex;
     justify-content: flex-start;
-    /* flex-direction: column; */
     width: 340px;
     height: 95px;
     margin-left: 1rem;
@@ -170,8 +170,9 @@ h4 {
     border: solid #FF4081;
     border-radius: 80px;
 }
+/*div mais conteúdo*/
 
-.conteudo-extra #mais {
+.conteudo-extra #mais-conteudo {
     margin: 5rem 0rem 3rem 0rem;
     font-family: 'Nunito';
     font-size: 37px;
@@ -180,7 +181,8 @@ h4 {
 }
 
 .conteudo-extra {
-    padding: 0rem 10rem 0rem 10rem;
+    padding: 91px 137px 53px 128px;
+  background-color: #f7f7f7;
 }
 
 .conteudo-extra div {
@@ -188,26 +190,29 @@ h4 {
     justify-content: space-between;
 }
 
-.conteudo-extra .mais {
+.conteudo-extra .conteudo {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    position: relative;
 }
 
 .conteudo-extra .title-card {
     color: #009688;
-    font-size: 26px;
-    font-weight: 700;
-    margin: 0 auto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 27px;
+  line-height: 31px;
+  margin: 0 auto;
 }
 
-.prev {
+.informacao {
     width: 100%;
     font-weight: 400;
     font-size: 18px;
     line-height: 21px;
     text-align: justify;
-  }
+    }
 
 .conteudo-extra img {
     margin: 0 auto;
@@ -227,9 +232,11 @@ h4 {
 
 .conteudo-extra #button {
     justify-content: center;
-    margin-bottom: 10rem;
+    margin-bottom: 80px;
     cursor: pointer;
 }
+
+
 
 @media only screen and (max-width: 480px) {
 
@@ -240,9 +247,6 @@ h4 {
         margin-top: 0px;
         margin-bottom: 1rem;
         width: 100vw;
-
-
-
     }
 
     .intro div div {
@@ -312,6 +316,7 @@ h4 {
     .conteudo-extra {
         display: flex;
         flex-direction: column;
+        justify-content: space-between;
         padding: 16px;
     }
 
@@ -454,7 +459,7 @@ h4 {
         line-height: 4rem;
     }
 
-    .conteudo-extra .mais {
+    .conteudo-extra .conteudo {
         margin-bottom: 50px;
     }
 
