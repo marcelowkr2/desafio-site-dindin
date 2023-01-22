@@ -9,6 +9,20 @@ body {
   margin-bottom: 0;
 }
 
+#curso1-independencia {
+  padding: 100px 200px;
+  display: flex;
+  align-items: center;
+}
+
+#curso-independencias{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 510px;
+  height: 380px;
+}
+
 main {
   padding: 80px;
 }
