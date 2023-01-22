@@ -55,6 +55,7 @@ body {
   flex-direction: column;
   justify-content: space-evenly;
   padding: 0px 80px;
+  text-align: justify;
 }
 
 .artigo img {
