@@ -81,22 +81,20 @@ body {
 
 @media only screen and (max-width:480px) {
   #blog {
-      padding: 20px;
+      padding: 10px;
       flex-direction: column;
       margin: 0 auto;
   }
 
   #intro-blog {
-      width: 280px;
-
-
+      width: 350px;
       align-items: center;
-
       text-align: center;
   }
 
   #intro-blog p {
       width: 100%;
+      text-align: justify;
   }
 
   #blog img {
