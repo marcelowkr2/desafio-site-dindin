@@ -112,7 +112,7 @@ footer {
     }
   }
   
-  @media only screen and (max-width: 768px) {
+  @media only screen and (min-width: 330px) {
     .links-trabalhe-conosco button {
       margin: 6.5px;
       padding: 1vw 5.69vw;

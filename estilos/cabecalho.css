@@ -127,40 +127,40 @@
       opacity: 1;
     } */
   
-  @media only screen and (max-width: 768px) {
+  @media only screen and (min-width: 480px) {
     nav a {
       padding: 10px 1vw;
     }
   
     nav ul {
-      padding: 22px 0;
+      padding: 10px 0;
     }
   
-    .logo-header img {
+    .logo-cabecalho img {
       padding-right: 0.76vw;
-      max-width: 50px;
+      max-width: 20px;
     }
   
-    .logo-header {
-      font-size: 40px;
+    .logo-cabecalho {
+      font-size: 20px;
       line-height: 44px;
       
     }
   
-    .logo-header p {
+    .logo-cabecalho p {
       margin-bottom: 2px;
     }
   }
   
   @media only screen and (max-width: 480px) {
-    .header-article {
+    .header-artigos {
       display: flex;
       justify-content: start;
       flex-direction: row-reverse;
       margin-bottom: 0px;
     }
   
-    .header-article .logo-header {
+    .header-artigos .logo-cabecalho {
       align-items: center;
       
   
@@ -168,11 +168,11 @@
       padding: 0px;
     }  
   
-    .logo-header img {
+    .logo-cabecalho img {
       margin: 5px 0px 5px 0px;
     }
   
-    .logo-header p {
+    .logo-cabecalho p {
       margin-bottom: -7px;
     }
   
@@ -199,7 +199,7 @@
       line-height: 2.5rem;
     }
   
-    .header-article #btn-mobile {
+    .header-artigos #btn-mobile {
       display: flex;
       padding: 0.5rem 1rem;
       font-size: 1rem;
