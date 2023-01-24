@@ -18,17 +18,22 @@
 </head>
 
 <body>
-  <header class="header-artigos">
-    <div class="logo-header">
+  <header class="header-container">
+    <div class="logo-cabecalho">
       <a href="index.html">
-        <img src="./assets/imagens/logo-header.png" alt="Logo dindin"/></a>
+        <img src="./assets/imagens/logo-header.png" alt="Logo dindin" /></a>
       <a href="index.html">
       </a>
     </div>
+
+    <!--Menu Mobile-->
     <nav id="nav">
-      <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">
-        <span id="hamburger"></span>
+      <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu"
+        aria-expanded="false"><span id="display-mobile"></span>
       </button>
+      <script src="./scripts/mobile.js"></script>
+      <!--Fim do menu Mobile-->
+
       <ul id="menu" role="menu">
         <li><a href="index.html">HOME</a></li>
         <li><a href="cursos.html">CURSOS</a></li>
@@ -60,9 +65,7 @@
     <h3>Educação financeira.</h3>
     <p>Não existe uma fórmula mágica para ter educação financeira. Ela é um processo e um aprendizado. Veja — você pode
       começar compreendendo seus ganhos e gastos para, depois, começar a guardar dinheiro.
-
-      Isso não quer dizer que não existem ações que auxiliem no seu processo de educação financeira. Abaixo, veja 6
-      dicas que podem ajudar a colocar em prática conceitos importantes de educação financeira.</p>
+      Isso não quer dizer que não existem ações que auxiliem no seu processo de educação financeira.</p>
     </div>
 
     <a href="post.html">
@@ -81,7 +84,7 @@
       <div class="artigo">
         <img src="./assets/imagens/Casal_Pensando-518x259.png" alt="Casal pensando no futuro">
     </a>
-    <h3>A importância de pensar no futuro.</h3>
+    <h3>Improtante pensar no futuro.</h3>
     <p>Saber se planejar e pensar no futuro talvez sejam os pilares mais importantes para organizar nossas finanças
       pessoais. Mais do que incentivar as pessoas a guardarem dinheiro para a aposentadoria, é preciso incentivá-las a
       buscar longevidade e qualidade de vida.</p>
@@ -92,7 +95,7 @@
         <img src="./assets/imagens/Equilibrando_orçamento-518X259.png"
           alt="figura mostrando personagens em uma gangorra">
     </a>
-    <h3>Como equilibrar o orçamento?</h3>
+    <h3>Equilibrar orçamento?</h3>
     <p>Caso um departamento gaste mais do que estava planejado, é papel dessa pessoa equilibrar o orçamento retirando
       verba de outro que não utilizou todo o dinheiro. O trabalho de planejamento orçamentário é descentralizado,
       gerando mais participação e engajamento dos times.</p>
@@ -106,12 +109,8 @@
     <h3>Mercado financeiro.</h3>
     <p>Como funciona o mercado financeiro pode ser uma dúvida frequente, seja você um iniciante ou investidor
       experiente, afinal, ele está repleto de atualizações diárias, envolvendo contextos políticos e econômicos!
-
       Como explicamos, o mercado financeiro possibilita o encontro entre investidores e tomadores. Ou seja, ele dá fluxo
-      para os recursos financeiros. As instituições do mercado proporcionam que os emissores e tomadores não precisem
-      “se encontrar” para negociar os ativos.
-
-      As negociações são feitas em ambientes seguros e intermediadas por agentes do mercado, como corretoras de valores.
+      para os recursos financeiros.
     </p>
     </div>
 
@@ -119,7 +118,7 @@
       <div class="artigo">
         <img src="./assets/imagens/mulher_olhando_ceu-518x259.png">
     </a>
-    <h3>Elaborar o orçamento familiar?</h3>
+    <h3>Orçamento familiar?</h3>
     <p>De início, anote os gastos fixos mensais (contas de água, luz, telefone e alimentação); Lembre-se de anotar
       também os gastos variáveis, ou seja, roupas, lazer, entre outros; Chegou a hora de comparar o dinheiro total dos
       seus ganhos com os gastos totais do período; Quando descobrir o valor dessa conta, faça a média dos gastos e
@@ -146,7 +145,6 @@
       <a href="contato.html"><button>preciso de ajuda</button></a>
     </div>
   </footer>
-  <script src="./scripts/mobile.js"></script>
 </body>
 
 </html>

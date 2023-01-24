@@ -19,13 +19,26 @@
 </head>
 
 <body>
-  <header class="header-artigos">
-    <div class="logo-header">
+  <header class="header-container">
+    <div class="logo-cabecalho">
       <a href="index.html">
         <img src="./assets/imagens/logo-header.png" alt="Logo dindin" /></a>
       <a href="index.html"></a>
     </div>
+
+    <!--Menu Mobile-->
     <nav id="nav">
+      <button
+        aria-label="Abrir Menu"
+        id="btn-mobile"
+        aria-haspopup="true"
+        aria-controls="menu"
+        aria-expanded="false"
+      ><span id="display-mobile"></span>
+      </button>
+      <script src="./scripts/mobile.js"></script>
+      <!--Fim do menu Mobile-->
+
       <ul id="menu" role="menu">
         <li><a href="index.html">HOME</a></li>
         <li><a href="cursos.html">CURSOS</a></li>
@@ -95,7 +108,5 @@
       <a href="contato.html"><button>preciso de ajuda</button></a>
     </div>
   </footer>
-  <script src="./scripts/mobile.js"></script>
-</body>
-
+  </body>
 </html>

@@ -11,14 +11,12 @@
   <link rel="shortcut icon" href="./assets/imagens/favicon.png" type="image/x-icon">
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700;800&family=Ubuntu:wght@300;400;500;700&display=swap"
-    rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700;800&family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet" />
   <title>dindin</title>
 </head>
 
 <body>
-  <header class="header-artigos">
+  <header class="header-container">
     <div class="logo-cabecalho">
       <a href="index.html">
         <img src="./assets/imagens/dindin-logo.png" alt="Logo dindin" /></a>
@@ -26,10 +24,20 @@
         <p>dindin</p>
       </a>
     </div>
-    <nav id="nav">
-      <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">
-        <span id="hamburger"></span>
+    
+    <!--Menu Mobile-->
+     <nav id="nav">
+      <button
+        aria-label="Abrir Menu"
+        id="btn-mobile"
+        aria-haspopup="true"
+        aria-controls="menu"
+        aria-expanded="false"
+      ><span id="display-mobile"></span>
       </button>
+      <script src="./scripts/mobile.js"></script>
+      <!--Fim do menu Mobile-->
+
       <ul id="menu" role="menu">
         <li><a href="index.html">HOME</a></li>
         <li><a href="cursos.html">CURSOS</a></li>
@@ -41,63 +49,63 @@
 
   <main>
 
-    <section class="presentation">
+    <section class="div1">
 
-        <div class="presentation__description-container">
+        <div class="introducao">
 
-            <h1 class="presentation__description-title">Educação Financeira <br> é tudo de bom</h1>
-            <p class="presentation__description-content">Vem comigo que te mostro por onde começar</p>
-            <a class="presentation__contact-button" href="cursos.html">quero saber mais</a>
+            <h1 class="intro-texto">Educação Financeira <br> é tudo de bom</h1>
+            <h2 class="texto2">Vem comigo que te mostro por onde começar</h2>
+            <a class="button" href="cursos.html"><button>quero saber mais</button></a>
 
         </div>
 
-        <img class="presentation__image" src="./assets/imagens/rapaz_meditando.png" alt="Banner vetorial">
+        <img class="apresentacao-imagem" src="./assets/imagens/rapaz_meditando.png" alt="Banner vetorial">
 
     </section>
 
-    <section class="features">
+    <section class="backgroud-cursos">
 
-        <div class="features__container">
+        <div class="div-cursos">
 
             <div class="features__item">
 
-                <img class="features__item-image" src="./assets/imagens/xadrex-382x383.png"
+                <img class="curso-imagem" src="./assets/imagens/xadrex-382x383.png"
                     alt="ilustração mulher regando uma árvore de dinheiro">
 
-                <h2 class="features__item-title">Investimento para iniciantes</h2>
+                <h2 class="curso-titulo">Investimento para iniciantes</h2>
 
-                <p class="features__item-content">Investir nunca foi tão fácil. Tudo o que você procura em uma incrível e potente plataforma de investimentos,
+                <p class="curso-conteudo">Investir nunca foi tão fácil. Tudo o que você procura em uma incrível e potente plataforma de investimentos,
                   no dispositivo de sua escolha, a empresa Dindin está aqui pra te ajudar.</p>
 
-                <a class="features__item-cta" href="investimento.html">começar agora</a>
+                <a class="curso-botao" href="investimento.html">começar agora</a>
 
             </div>
 
             <div class="features__item">
 
-                <img class="features__item-image" src="./assets/imagens/arvore de dinheiro-382x387.png"
+                <img class="curso-imagem" src="./assets/imagens/arvore de dinheiro-382x387.png"
                     alt="ilustração investimento">
 
-                <h2 class="features__item-title">Poupando e Rendendo</h2>
+                <h2 class="curso-titulo">Poupando e Rendendo</h2>
 
-                <p class="features__item-content">Atualmente, a conta que mais rende é a do C6 Bank e PicPay, que pagam acima de 102% do CDI. Mas, se você
+                <p class="curso-conteudo">Atualmente, a conta que mais rende é a do C6 Bank e PicPay, que pagam acima de 102% do CDI. Mas, se você
                   pretende investir até R$ 500, a melhor opção será o 99Pay.</p>
 
-                <a class="features__item-cta" href="poupando.html">começar agora</a>
+                <a class="curso-botao" href="poupando.html">começar agora</a>
 
             </div>
 
             <div class="features__item">
 
-                <img class="features__item-image" src="./assets/imagens/menina-trofeu-187x270.png"
+                <img class="curso-imagem" src="./assets/imagens/menina-trofeu-187x270.png"
                     alt="ilustração menina segurando troféu">
 
-                <h2 class="features__item-title">Independência Financeira</h2>
+                <h2 class="curso-titulo">Independência Financeira</h2>
 
-                <p class="features__item-content">Alguns especialistas afirmam que a independência financeira é alcançada quando os seus ganhos são maiores que
+                <p class="curso-conteudo">Alguns especialistas afirmam que a independência financeira é alcançada quando os seus ganhos são maiores que
                   os seus gastos mensais.</p>
 
-                <a class="features__item-cta" href="independencia.html">começar agora</a>
+                <a class="curso-botao" href="independencia.html">começar agora</a>
             </div>
 
         </div>       
@@ -225,6 +233,5 @@
 
     </div>
   </footer>
-  <script src="./scripts/mobile.js"></script>
 </body>
 </html>

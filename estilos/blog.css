@@ -5,7 +5,7 @@ body {
   color: #000;
 }
 
-.header-artigos {
+.header-container{
   margin-bottom: 0;
 }
 
@@ -65,9 +65,7 @@ body {
 
 .artigo h3 {
   color: #FF4081;
-
   font-size: 30px;
-
   padding-bottom: 20px;
 }
 
@@ -84,12 +82,14 @@ body {
       padding: 10px;
       flex-direction: column;
       margin: 0 auto;
+      
   }
 
   #intro-blog {
       width: 350px;
       align-items: center;
       text-align: center;
+      
   }
 
   #intro-blog p {
@@ -110,7 +110,7 @@ body {
   }
 
   .artigo {
-      padding: 0;
+      padding: 20;
 
       width: 280px;
       padding-bottom: 50px;
@@ -119,14 +119,21 @@ body {
   }
 
   .artigo img {
-      width: 280px;
-      padding-top: 30px;
+      width: 300px;
+      padding-top: 10px;
+  }
+
+  .artigo h3 {
+    color: #FF4081;
+    font-size:20px;
+    padding-bottom: 10px;
+    text-align: center;
   }
 
   .artigo p {
       width: 100%;
       font-size: 0.8rem;
-      margin: 0;
+      margin: 2px;
   }
 
 
@@ -145,11 +152,7 @@ body {
 
   #intro-blog {
       width: 90%;
-
-
-      align-items: center;
-
-      text-align: center;
+      align-items: center; text-align: center;
   }
 
   #intro-blog p {
@@ -311,6 +314,6 @@ body {
 
   article iframe {
     width: 80%;
-    height: 250px;
+    height: 25px;
   }
 }

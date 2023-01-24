@@ -16,18 +16,10 @@ footer {
     text-decoration: none;
   }
   
-  .logo-rodape {
-    display: flex;
-    color: #ffffff;
-    align-items: flex-end;
-    padding: 52px 0;
-    padding-left: 8.89vw;
-    font-style: normal;
-  }
-  
   .logo-rodape img {
     padding-right: 15.43px;
     width: 312px;
+    padding-left: 50px;
   }
   
   .links-footer ul {
@@ -70,35 +62,54 @@ footer {
   }
   
   @media only screen and (max-width: 480px) {
-    .logo-rodape{
-        display: none;
+    .logo-rodape img {
+      padding-right: 15.43px;
+      width: 250px;
     }
+
+    .links-footer ul, li{
+      display: none;
+    }
+
+    .links-trabalhe-conosco button{
+    margin: 6.5px;
+    padding: 14px 0px;
+    width: 100%;
+    background-color: #419488;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+    border: 2px solid #ffffff;
+    border-radius: 62px;
+    }
+
+
   }
   
   @media only screen and (min-width: 481px) and (max-width: 768px) {
-    .logo-rodape{
-        display: none;
+    .logo-rodape img {
+      padding-right: 15.43px;
+      width: 250px;
+    }
+
+    .links-footer ul, li{
+      display: none;
+    }
+
+    .links-trabalhe-conosco button{
+    margin: 6.5px;
+    padding: 14px 0px;
+    width: 100%;
+    background-color: #419488;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+    border: 2px solid #ffffff;
+    border-radius: 62px;
     }
   }
   
-  @media only screen and (min-width: 769px) and (max-width: 1024px) {
-   
-  }
-  
-  @media only screen and (min-width: 1025px) and (max-width: 1200px) {
-  
-  }
-  
-  @media only screen and (min-width: 1201px) {
-  
-  }
-  
-  @media only screen and (max-width: 480px) {
-      .logo-rodape{
-          display: none;
-      }
-  
-      .slogan {
-          display: none;
-      }
-  }

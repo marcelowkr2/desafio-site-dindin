@@ -15,12 +15,14 @@
     <title>dindin contato</title>
   </head>
   <body>
-    <header class="header-artigos">
-      <div class="logo-header">
+    <header class="header-container">
+      <div class="logo-cabecalho">
         <a href="index.html">
           <img src="./assets/imagens/logo-header.png" alt="Logo dindin"
         /></a>
       </div>
+
+      <!--Menu Mobile-->
       <nav id="nav">
         <button
           aria-label="Abrir Menu"
@@ -28,9 +30,11 @@
           aria-haspopup="true"
           aria-controls="menu"
           aria-expanded="false"
-        >
-          <span id="hamburger"></span>
+        ><span id="display-mobile"></span>
         </button>
+        <script src="./scripts/mobile.js"></script>
+        <!--Fim do menu Mobile-->
+        
         <ul id="menu" role="menu">
           <li><a href="index.html">HOME</a></li>
           <li><a href="cursos.html">CURSOS</a></li>
@@ -82,6 +86,5 @@
         >
       </div>
     </footer>
-    <script src="./scripts/mobile.js"></script>
   </body>
 </html>
