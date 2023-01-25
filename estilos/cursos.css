@@ -5,7 +5,7 @@ body {
   color: #000;
 }
 
-.header-artigos {
+.header-container {
   margin-bottom: 0;
 }
 
@@ -28,9 +28,9 @@ main {
 }
 
 h1 {
-  color:#FF4081;
-  font-size: 60px;
-  position: absolute;
+color:#FF4081;
+font-size: 60px;
+position: absolute;
 width: 263px;
 height: 69px;
 left: 82px;

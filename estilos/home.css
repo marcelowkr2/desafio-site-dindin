@@ -12,7 +12,7 @@ body {
   font-family: "Ubuntu";
 }
 
-.header-article {
+.header-container {
   margin-bottom: 0;
 }
 
@@ -252,59 +252,256 @@ body {
       color: #ff4081;
       cursor: pointer;
     }
-
-    /* Footer */
-
-
-    .footer__container {
+    @media only screen and (max-width: 1024px) {
+      .div1 {
+        width: 80%;
+        margin: 3rem auto;
+      }
+    
+      .intro-texto {
+        width: 100%;
+      }
+    
+      .intro-texto h1 {
+        width: 90%;
+        font-size: 40px;
+        line-height: 48px;
+      }
+    
+      .intro-texto h5 {
+        width: 80%;
+        font-size: 22px;
+        line-height: 28px;
+        padding: 20px 0;
+      }
+    
+      .intro-texto button {
+        font-size: 22px;
+        line-height: 28px;
+      }
+    
+      .depoimentos {
+        display: flex;
+        padding: 50px 0;
+        width: 80%;
+        flex-direction: column;
+        margin: 0 auto;
+      }
+    
+      #falam {
+        font-size: 34px;
+        line-height: 40px;
+      }
+    
+      .conteudo-extra {
+        padding: 50px 0;
+        display: flex;
+        flex-direction: column;
+        background-color: #f7f7f7;
+      }
+    
+      #mais {
+        margin: 0 auto;
+        margin-bottom: 20px;
+        width: 80%;
+        text-align: center;
+      }
+    
+      .conteudo-extra div {
+        width: 80%;
+        margin-top: 20px;
+        margin: 0 auto;
+      }
+    
+      .mais div {
+        width: 100%;
+      }
+    
+      .conteudo-extra a {
+        margin: 0 auto;
+      }
+    
+      .conteudo-extra img {
+        width: 100%;
+      }
+    
+      .prev {
+        margin-bottom: 40px;
+      }
+    
+      .conteudo-extra button {
+        margin-top: 60px;
+        width: 40%;
+      }
+    }
+    
+    @media only screen and (max-width: 768px) {
+      .intro-texto h1 {
+        font-size: 36px;
+        line-height: 40px;
+      }
+    
+      .intro-texto h5 {
+        font-size: 18px;
+        line-height: 20px;
+        padding: 10px 0;
+      }
+    
+      .intro-texto button {
+        width: 90%;
+        font-size: 20px;
+        line-height: 26px;
+      }
+    
+      .chamada-cursos {
+        padding: 0 0 60px 0;
+      }
+    
+      #falam {
+        font-size: 30px;
+        line-height: 35px;
+      }
+    
+      .depoimentos div {
+        justify-content: center;
+      }
+    
+      .dep {
         display: flex;
         flex-direction: row;
-        justify-content: space-around;
-        max-width: 1440px;
-        margin: 0 auto;
+        margin: 30px auto;
+      }
+    
+      .dep-img {
+        height: auto;
+      }
+    
+      .dep-ind {
+        margin-left: 18px;
+        font-size: 16px;
+        line-height: 22px;
+        width: 90%;
+      }
+    
+      #name {
+        margin-top: 5px;
+        font-size: 16px;
+        line-height: 22px;
+      }
+    
+      .conteudo-extra {
+        padding: 40px 0;
+      }
+    
+      #mais {
+        font-size: 30px;
+        line-height: 35px;
+      }
+    
+      .conteudo-extra button {
+        width: 80%;
+      }
     }
-
-    .footer__text {
-        display: flex;
-        flex-direction: column;
-        color: #fff;
-        line-height: 2rem;
-
-    }
-
-    .footer__text span a {
-        text-decoration: none;
-        color: #FFF;
-    }
-
-    .footer__text span a:hover {
-        color: #b8e4df;
-    }
-
-    .footer__bto {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .footer__bto-button {
-        display: flex;
-        flex-direction: column;
+    
+    @media only screen and (max-width: 480px) {
+      .intro-texto h1 {
+        font-size: 36px;
+        line-height: 40px;
+      }
+    
+      .intro-texto h5 {
+        font-size: 18px;
+        line-height: 20px;
+        padding: 10px 0;
+      }
+    
+      .intro-texto button {
+        width: 90%;
+        font-size: 20px;
+        line-height: 26px;
+      }
+    
+      .chamada-cursos {
+        padding: 0 0 60px 0;
+      }
+    
+      #falam {
+        font-size: 30px;
+        line-height: 35px;
+      }
+    
+      .depoimentos div {
         justify-content: center;
-        align-items: center;
-        text-decoration: none;
-        color: #fff;    
-        font-size: 1.8rem;
-        font-weight: 400;
-        Width: 26rem;
-        Height: 4rem;
-        border: 2px solid #ffffff;
-        border-radius: 6rem;
+      }
+    
+      .dep {
+        display: flex;
+        flex-direction: row;
+        margin: 30px auto;
+      }
+    
+      .dep-img {
+        height: auto;
+      }
+    
+      .dep-ind {
+        margin-left: 18px;
+        font-size: 16px;
+        line-height: 22px;
+        width: 90%;
+      }
+    
+      #name {
+        margin-top: 5px;
+        font-size: 16px;
+        line-height: 22px;
+      }
+    
+      .cards{
+        padding: 91px 137px 53px 128px;
+        background-color: #f7f7f7;
+      }
+  
+  
+      .cards h1{
+        width: 600px;
+        height: 100px;
+        left: 128px;
+        top: 2351px;
+        font-family: 'Nunito';
+        font-size: 27px;
+        font-weight: 700;
+        color: #009688;
+      }
+  
+      .cards-container {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-around;
+          max-width: 140px;
+          margin: 0 auto;
+      }
+  
+      .cards-item {
+          width: 25%;
+      }
+  
+      .cards-item-image {
+          width: 100%;
+      }
+  
+      .cards-item-title {
+        color: #009688;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 27px;
+        line-height: 31px;
         margin: 0 auto;
-        margin-bottom: 1rem;
-        padding: 1rem;
-    }
-
-    .footer__bto-button:hover {
-        background-color: #257970;
-        transition: 200ms;
-    }
+      }
+      
+      .cards-item-title a {
+        color: #009688
+      }
+    }  
+    
+    
