@@ -404,21 +404,27 @@ body {
     }
     
     @media only screen and (max-width: 480px) {
-      .intro-texto h1 {
-        font-size: 36px;
+
+      .introducao h1 {
+        font-size: 26px;
         line-height: 40px;
+        text-align: center;
       }
     
-      .intro-texto h5 {
+      .introducao h5 {
         font-size: 18px;
         line-height: 20px;
         padding: 10px 0;
       }
     
-      .intro-texto button {
+      .introducao button {
         width: 90%;
         font-size: 20px;
         line-height: 26px;
+      }
+
+      .apresentacao-imagem{
+        display: none;
       }
     
       .chamada-cursos {
@@ -478,7 +484,7 @@ body {
           display: flex;
           flex-direction: row;
           justify-content: space-around;
-          max-width: 140px;
+          max-width: 1440px;
           margin: 0 auto;
       }
   
