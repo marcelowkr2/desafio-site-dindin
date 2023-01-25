@@ -36,13 +36,14 @@ body {
   color: #ff4081;
 }
 
-.texto2 h5 {
+.texto2{
   width: 80%;
   font-style: normal;
   font-weight: 400;
-  font-size: 50px;
-  line-height: 31px;
+  font-size: 30px;
+  line-height: 40px;
   padding: 40px 0;
+  color: #000808;
 }
 
 .button button {
@@ -130,7 +131,7 @@ body {
 
     /* TESTEMUNHOS */
 
-    #falam {
+    #falam{
         font-family: 'Nunito';
         font-size: 37px;
         font-weight: 700;
@@ -177,13 +178,27 @@ body {
     }
 
       
-    /* Bonus */
+    /* Cards */
 
-    .bonus__title {
-        font-size: 3.2rem;
+
+    .cards{
+      padding: 91px 137px 53px 128px;
+      background-color: #f7f7f7;
     }
 
-    .bonus__container {
+
+    .cards h1{
+      width: 600px;
+      height: 100px;
+      left: 128px;
+      top: 2351px;
+      font-family: 'Nunito';
+      font-size: 37px;
+      font-weight: 700;
+      color: #009688;
+    }
+
+    .cards-container {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
@@ -191,12 +206,51 @@ body {
         margin: 0 auto;
     }
 
-    .bonus__item {
+    .cards-item {
         width: 25%;
     }
 
-    .bonus__item-image {
+    .cards-item-image {
         width: 100%;
+    }
+
+    .cards-item-title {
+      color: #009688;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 27px;
+      line-height: 31px;
+      margin: 0 auto;
+    }
+    
+    .cards-item-title a {
+      color: #009688
+    }
+
+    #button {
+      justify-content: center;
+      cursor: pointer;
+    }
+    
+    #button a {
+      display: flex;
+      width: 100%;
+      justify-content: center;
+    }
+    
+    div button {
+      margin-top: 101px;
+      width: 30%;
+      height: 51px;
+      border: 2px solid #ff4081;
+      border-radius: 62px;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 25px;
+      line-height: 29px;
+      background-color: #f7f7f7;
+      color: #ff4081;
+      cursor: pointer;
     }
 
     /* Footer */
@@ -227,12 +281,12 @@ body {
         color: #b8e4df;
     }
 
-    .footer__cta {
+    .footer__bto {
         display: flex;
         flex-direction: column;
     }
 
-    .footer__cta-button {
+    .footer__bto-button {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -250,7 +304,7 @@ body {
         padding: 1rem;
     }
 
-    .footer__cta-button:hover {
+    .footer__bto-button:hover {
         background-color: #257970;
         transition: 200ms;
     }
