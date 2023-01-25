@@ -405,14 +405,19 @@ body {
     
     @media only screen and (max-width: 480px) {
 
+      
+      .apresentacao-imagem{
+        width: 50%;
+        height: 50%;
+      }
+      
       .introducao h1 {
         font-size: 26px;
         line-height: 40px;
-        text-align: center;
       }
     
       .introducao h5 {
-        font-size: 18px;
+        font-size:16px;
         line-height: 20px;
         padding: 10px 0;
       }
@@ -422,10 +427,7 @@ body {
         font-size: 20px;
         line-height: 26px;
       }
-
-      .apresentacao-imagem{
-        display: none;
-      }
+      
     
       .chamada-cursos {
         padding: 0 0 60px 0;
